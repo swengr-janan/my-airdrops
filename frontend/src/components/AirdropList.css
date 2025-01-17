@@ -1,0 +1,48 @@
+/* src/components/AirdropList.css */
+.airdrop-list-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .airdrop-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .airdrop-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .airdrop-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .airdrop-card h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .airdrop-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .airdrop-details {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #444;
+  }
+  
